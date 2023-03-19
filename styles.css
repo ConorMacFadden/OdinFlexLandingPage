@@ -121,6 +121,17 @@ button {
     background-color: #3882F6;
 }
 
-.quote {
+.quote-section {
     background-color: #E5E7EB;
+}
+
+.quote {
+    max-width: 900px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    
 }
