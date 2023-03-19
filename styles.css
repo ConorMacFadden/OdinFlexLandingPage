@@ -6,14 +6,18 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .footer {
     flex: none;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     background-color: #1F2937;
-    color: white;
+    height: 72px;
+}
+
+.header {
+    justify-content: space-between;
 }
 
 .logo {
@@ -33,4 +37,9 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.footer {
+    color: #E5E7EB;
+    justify-content: center;
 }
