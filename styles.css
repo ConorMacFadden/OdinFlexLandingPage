@@ -43,3 +43,9 @@ body {
     color: #E5E7EB;
     justify-content: center;
 }
+
+.card-container {
+    display: flex;
+    gap: 16px;
+}
+
